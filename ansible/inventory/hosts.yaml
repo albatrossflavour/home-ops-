@@ -1,0 +1,14 @@
+---
+kubernetes:
+  children:
+    controllers:
+      hosts:
+        "weatherwax":
+          ansible_user: "tgreen"
+          ansible_host: "192.168.2.90"
+        "ogg":
+          ansible_user: "tgreen"
+          ansible_host: "192.168.2.91"
+        "magrat":
+          ansible_user: "tgreen"
+          ansible_host: "192.168.2.92"
