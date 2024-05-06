@@ -6,7 +6,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 30m
-  url: "ssh://git@github.com:albatrossflavour/home-ops.git"
+  url: "https://github.com/albatrossflavour/home-ops.git"
   ref:
     branch: "main"
   ignore: |
