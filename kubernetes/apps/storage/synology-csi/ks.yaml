@@ -16,5 +16,5 @@ spec:
     substituteFrom: []
   decryption:
     provider: sops
-  dependsOn:
-    - name: cluster-apps-snapshot-controller
+# dependsOn:
+#   - name: cluster-apps-snapshot-controller
