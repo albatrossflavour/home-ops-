@@ -6,4 +6,4 @@ resources:
   - ./namespace.yaml
   # Flux-Kustomizations
   #- ./snapshot-controller/ks.yaml
-  - ./synology-csi/ks.yaml
+  #- ./synology-csi/ks.yaml
