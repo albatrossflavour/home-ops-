@@ -18,12 +18,8 @@ spec:
       interval: 30m
   values:
     clientInfoSecret:
-      clients:
-        - host: "${SYNOLOGY_IP}"
-          https: false
-          password: "${SYNOLOGY_PASS}"  # the password of the dedicated CSI user
-          port: 5000
-          username: "${SYNOLOGY_USER}"
+      create: false
+      name: synology-csi-secret
     images:
       attacher:
         image: registry.k8s.io/sig-storage/csi-attacher
