@@ -1,0 +1,7 @@
+---
+clients:
+  - host: 192.168.1.22
+    port: 5000
+    https: false
+    username: k3s
+    password: s3ndmail
