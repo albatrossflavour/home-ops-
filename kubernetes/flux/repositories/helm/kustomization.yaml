@@ -12,3 +12,4 @@ resources:
   - ./openebs.yaml
   - ./stakater.yaml
   - ./synology-csi.yaml
+  - ./external-secrets.yaml
