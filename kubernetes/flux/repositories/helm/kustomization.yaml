@@ -14,3 +14,4 @@ resources:
   - ./synology-csi.yaml
   - ./external-secrets.yaml
   - ./cloudnative-pg.yaml
+  - ./piraeus.yaml
