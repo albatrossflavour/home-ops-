@@ -59,7 +59,13 @@ spec:
           fstype: ext4
           location: '/volume1'
           protocol: iscsi
-        isDefault: true
+      synology-smb:
+        parameters:
+          dsm: "${SYNOLOGY_ADDR}"
+          fstype: ext4
+          location: '/volume1'
+          protocol: smb
+          isDefault: true
     volumeSnapshotClasses:
       synology-iscsi-delete:
         deletionPolicy: Delete
