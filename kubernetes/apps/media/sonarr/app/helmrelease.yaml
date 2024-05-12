@@ -79,7 +79,8 @@ spec:
         runAsUser: 568
         runAsGroup: 568
         fsGroup: 568
-        fsGroupChangePolicy: OnRootMismatch
+        # fsGroupChangePolicy: OnRootMismatch
+        fsGroupChangePolicy: Always
         supplementalGroups: [10000]
         seccompProfile: { type: RuntimeDefault }
     service:
@@ -101,12 +102,6 @@ spec:
     persistence:
       config:
         existingClaim: sonarr
-        defaultMode: 0775
-        globalMounts:
-          - path: /config
-          - readOnly: false
-          - fsGroup: 568
-          - subPath: sonarr-config
       pushover-notify:
         type: configMap
         name: sonarr-configmap
