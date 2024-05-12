@@ -59,7 +59,7 @@ spec:
           fstype: ext4
           location: '/volume1'
           protocol: iscsi
-          isDefault: true
+        isDefault: true
     volumeSnapshotClasses:
       synology-iscsi-delete:
         deletionPolicy: Delete
