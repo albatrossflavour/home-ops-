@@ -11,7 +11,3 @@ resources:
   - ./metrics-server.yaml
   - ./openebs.yaml
   - ./stakater.yaml
-  - ./synology-csi.yaml
-  - ./external-secrets.yaml
-  - ./cloudnative-pg.yaml
-  - ./piraeus.yaml
