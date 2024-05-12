@@ -62,7 +62,6 @@ spec:
       synology-smb:
         parameters:
           dsm: "${SYNOLOGY_ADDR}"
-          fstype: ext4
           location: '/volume1'
           protocol: smb
           isDefault: true
