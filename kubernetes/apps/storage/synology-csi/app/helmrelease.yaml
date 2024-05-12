@@ -49,13 +49,13 @@ spec:
     storageClasses:
       synology-iscsi-delete:
         parameters:
-          dsm: "${SYNOLOGY_ADDR}"
+          dsm: 192.168.1.22
           fstype: ext4
           location: '/volume1'
           protocol: iscsi
       synology-iscsi-retain:
         parameters:
-          dsm: "${SYNOLOGY_ADDR}"
+          dsm: 192.168.1.22
           fstype: ext4
           location: '/volume1'
           protocol: iscsi
