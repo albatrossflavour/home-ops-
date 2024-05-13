@@ -16,3 +16,4 @@ resources:
   - ./cloudnative-pg.yaml
   - ./piraeus.yaml
   - ./rook-ceph.yaml
+  - ./prometheus-community.yaml
