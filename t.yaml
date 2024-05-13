@@ -1,0 +1,14 @@
+---
+kind: StorageClass
+metadata:
+  name: synology-test-storage
+provisioner: csi.san.synology.com
+parameters:
+  protocol: iscsi
+  mountOptions:
+    - dir_mode=0777
+    - file_mode=0777
+    - uid=563
+    - gid=563
+reclaimPolicy: Delete
+allowVolumeExpansion: true

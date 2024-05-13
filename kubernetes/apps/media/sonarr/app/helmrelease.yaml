@@ -76,10 +76,10 @@ spec:
                 memory: 1Gi
     defaultPodOptions:
       securityContext:
-        runAsNonRoot: true
-        runAsUser: 568
-        runAsGroup: 568
-        fsGroup: 568
+        runAsNonRoot: false
+        runAsUser: 0
+        runAsGroup: 0
+        fsGroup: 0
         fsGroupChangePolicy: OnRootMismatch
         supplementalGroups: [100]
         # seccompProfile: {type: RuntimeDefault}
@@ -101,8 +101,7 @@ spec:
                   port: http
     persistence:
       config:
-        type: emptyDir
-        # existingClaim: sonarr
+        existingClaim: sonarr
       pushover-notify:
         type: configMap
         name: sonarr-configmap
