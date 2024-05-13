@@ -99,17 +99,10 @@ spec:
                 service:
                   identifier: app
                   port: http
-    volumePermissions:
-      enabled: true
-      sonarr:
-        enabled: true
-        runAsUser: 568
-        fsGroup: 568
-        readOnly: false
-        defaultMode: 0775
     persistence:
       config:
-        existingClaim: sonarr
+        type: emptyDir
+        # existingClaim: sonarr
       pushover-notify:
         type: configMap
         name: sonarr-configmap
