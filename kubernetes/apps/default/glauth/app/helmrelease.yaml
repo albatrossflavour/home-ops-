@@ -91,7 +91,7 @@ spec:
             scrapeTimeout: 10s
     persistence:
       config:
-        type: configMap
+        type: secret
         name: glauth-secret
         globalMounts:
           - path: /config/groups.toml
