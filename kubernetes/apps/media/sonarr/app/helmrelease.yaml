@@ -107,8 +107,8 @@ spec:
         readOnly: false
         defaultMode: 0775
     persistence:
-      config:
-        existingClaim: sonarr
+#     config:
+#       existingClaim: sonarr
       pushover-notify:
         type: configMap
         name: sonarr-configmap
