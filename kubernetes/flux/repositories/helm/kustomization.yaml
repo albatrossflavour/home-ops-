@@ -15,3 +15,4 @@ resources:
   - ./external-secrets.yaml
   - ./cloudnative-pg.yaml
   - ./piraeus.yaml
+  - ./rook-ceph.yaml
