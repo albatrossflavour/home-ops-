@@ -17,3 +17,5 @@ resources:
   - ./piraeus.yaml
   - ./rook-ceph.yaml
   - ./prometheus-community.yaml
+  - ./stevehipwell.yaml
+  - ./grafana.yaml
