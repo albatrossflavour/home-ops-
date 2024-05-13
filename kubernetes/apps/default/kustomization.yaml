@@ -5,4 +5,5 @@ resources:
   # Pre Flux-Kustomizations
   - ./namespace.yaml
   # Flux-Kustomizations
+  - ./glauth/ks.yaml
   - ./authelia/ks.yaml
