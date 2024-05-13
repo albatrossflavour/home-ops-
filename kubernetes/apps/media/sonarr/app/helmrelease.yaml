@@ -79,8 +79,7 @@ spec:
         runAsUser: 568
         runAsGroup: 568
         fsGroup: 568
-        # fsGroupChangePolicy: OnRootMismatch
-        fsGroupChangePolicy: Always
+        fsGroupChangePolicy: OnRootMismatch
         supplementalGroups: [10000]
         seccompProfile: { type: RuntimeDefault }
     service:
@@ -99,6 +98,8 @@ spec:
                 service:
                   identifier: app
                   port: http
+    volumePermissions:
+      enabled: true
     persistence:
       config:
         existingClaim: sonarr
