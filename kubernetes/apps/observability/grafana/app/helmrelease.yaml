@@ -187,6 +187,10 @@ spec:
               implementation: prometheus
     dashboards:
       default:
+        proxmox:
+          gnetId: 10347
+          datasource:
+            - { name: DS_PROMETHEUS, value: Prometheus }
         blocky:
           # renovate: depName="blocky"
           gnetId: 13768
