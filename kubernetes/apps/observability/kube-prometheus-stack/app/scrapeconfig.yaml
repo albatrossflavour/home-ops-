@@ -64,7 +64,7 @@ metadata:
   name: &name proxmox
 spec:
   staticConfigs:
-    - targets: ["192.168.2.100", "192.168.2.101", "192.168.2.103"]
+    - targets: ["192.168.2.100:9221", "192.168.2.101:9221", "192.168.2.103:9221"]
   metricsPath: /metrics
   relabelings:
     - action: replace
