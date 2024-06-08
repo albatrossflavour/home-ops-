@@ -7,4 +7,4 @@ metadata:
   namespace: flux-system
 spec:
   interval: 5m
-  url: https://stevehipwell.github.io/helm-charts/
+  url: https://github.com/stevehipwell/helm-charts
