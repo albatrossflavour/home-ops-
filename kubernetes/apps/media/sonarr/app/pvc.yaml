@@ -5,7 +5,7 @@ metadata:
   name: sonarr
 spec:
   capacity:
-    storage: 10Gi
+    storage: 2Gi
   accessModes:
     - ReadWriteMany
   nfs:
