@@ -29,7 +29,6 @@ resources:
   - ./ingress-nginx.yaml
   - ./jetstack.yaml
   - ./k8s-gateway.yaml
-  - ./kustomization.yaml
   - ./metrics-server.yaml
   - ./openebs.yaml
   - ./stakater.yaml
